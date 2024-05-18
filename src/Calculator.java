@@ -43,7 +43,7 @@ public class Calculator implements ActionListener {
 
         // Specify the width and height for the Delete and Clear buttons
         // and position them within the window.
-        setUpDeleteAndClear();
+        setUpDeleteAndClearButtons();
 
         //Set the grid of numbers
         setUpPanel();
@@ -82,7 +82,7 @@ public class Calculator implements ActionListener {
         }
     }
 
-    private void setUpDeleteAndClear() {
+    private void setUpDeleteAndClearButtons() {
 
         mathButtons[6].setBounds(50, 430, 145, 50);
         mathButtons[7].setBounds(205, 430, 145, 50);
